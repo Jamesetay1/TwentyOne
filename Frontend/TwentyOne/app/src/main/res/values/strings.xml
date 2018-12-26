@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TwentyOne</string>
+    <string name="twentyone">TwentyOne</string>
+    <string name="singleplayer">SinglePlayer</string>
+    <string name="multiplayer">MultiPlayer</string>
+    <string name="title_activity_log_in">Log In</string>
+    <string name="title_Home">Please Enter your username and password to Log In</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In!</string>
+    <string name="title_activity_lobby_join">LobbyJoin</string>
+    <string name="join_lobby">Join Lobby</string>
+    <string name="title_activity_lobby">LobbyActivity</string>
+    <string name="textview">TextView</string>
+    <string name="reset_lobby">Reset Lobby</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_3">Player 3</string>
+    <string name="player_4">Player 4</string>
+    <string name="lobby_title">TwentyOne Lobby</string>
+    <string name="start_game">Start Game</string>
+    <string name="title_activity_multiplayer">Multiplayer</string>
+    <string name="ready">Ready</string>
+    <string name="readyup">Ready Up</string>
+    <string name="hit">Hit</string>
+    <string name="stay">Stay</string>
+    <string name="split">Split</string>
+    <string name="empty_card">+</string>
+    <string name="dealer">Dealer</string>
+    <string name="title_activity_settings">Sign in</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="information">Information</string>
+    <string name="your_hand">Your Hand</string>
+    <string name="your_last_cards_were">Your last cards were:</string>
+    <string name="you_chose_to">You chose to: hit</string>
+    <string name="you_should_have">You should have: hit</string>
+    <string name="open_chart">Open Chart</string>
+</resources>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SinglePlayerActivity"
+    android:background="@android:color/holo_green_dark">
+
+    <TextView
+        android:id="@+id/your_hand_username"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/your_hand"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <TextView
+        android:id="@+id/your_hand_card_1"
+        android:layout_width="52dp"
+        android:layout_height="76dp"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <TextView
+        android:id="@+id/your_hand_card_2"
+        android:layout_width="52dp"
+        android:layout_height="76dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <TextView
+        android:id="@+id/your_hand_card_3"
+        android:layout_width="52dp"
+        android:layout_height="76dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <TextView
+        android:id="@+id/your_hand_card_4"
+        android:layout_width="52dp"
+        android:layout_height="76dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <TextView
+        android:id="@+id/your_hand_card_5"
+        android:layout_width="52dp"
+        android:layout_height="76dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <TextView
+        android:id="@+id/sp_dealer_username"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/dealer"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/training_lastcard_1"-->
+        <!--android:layout_width="37dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:background="@color/colorLightGray"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/empty_card"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.015"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.369" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/training_lastcard_2"-->
+        <!--android:layout_width="37dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:background="@color/colorLightGray"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/empty_card"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.135"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.369" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/training_lastcard_3"-->
+        <!--android:layout_width="37dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:background="@color/colorLightGray"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/empty_card"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.255"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.369" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/training_lastcard_4"-->
+        <!--android:layout_width="37dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:background="@color/colorLightGray"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/empty_card"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.375"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.369" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/training_lastcard_5"-->
+        <!--android:layout_width="37dp"-->
+        <!--android:layout_height="55dp"-->
+        <!--android:background="@color/colorLightGray"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/empty_card"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.495"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.369" />-->
+
+    <TextView
+        android:id="@+id/sp_dealer_card_1"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/sp_dealer_card_2"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/sp_dealer_card_3"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/sp_dealer_card_4"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/sp_dealer_card_5"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/turn_text_view2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <Button
+        android:id="@+id/button_sphit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="handleHitButton"
+        android:text="@string/hit"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/button_spstay"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="handleStayButton"
+        android:text="@string/stay"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/button_spsplit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="handleSplitButton"
+        android:text="@string/split"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/training_last_cards_text"-->
+        <!--android:layout_width="140dp"-->
+        <!--android:layout_height="24dp"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="128dp"-->
+        <!--android:text="@string/your_last_cards_were"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.036" />-->
+
+</android.support.constraint.ConstraintLayout>

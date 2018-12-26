@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiplayerActivity"
+    android:background="@android:color/holo_green_dark">
+
+    <TextView
+        android:id="@+id/player_1_username"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/player_1"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/player_1_card_1"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:text="@string/empty_card"
+        android:gravity="center"
+        android:background="@color/colorLightGray"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/player_1_card_2"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:text="@string/empty_card"
+        android:gravity="center"
+        android:background="@color/colorLightGray"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/player_1_card_3"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:text="@string/empty_card"
+        android:gravity="center"
+        android:background="@color/colorLightGray"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/player_1_card_4"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:text="@string/empty_card"
+        android:gravity="center"
+        android:background="@color/colorLightGray"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/player_1_card_5"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:text="@string/empty_card"
+        android:gravity="center"
+        android:background="@color/colorLightGray"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/player_2_username"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/player_2"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <TextView
+        android:id="@+id/player_2_card_1"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/player_2_card_2"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/player_2_card_3"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/player_2_card_4"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/player_2_card_5"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+    <TextView
+        android:id="@+id/player_3_username"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/player_3"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335" />
+
+    <TextView
+        android:id="@+id/player_3_card_1"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/player_3_card_2"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/player_3_card_3"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/player_3_card_4"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/player_3_card_5"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/player_4_username"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/player_4"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <TextView
+        android:id="@+id/player_4_card_1"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <TextView
+        android:id="@+id/player_4_card_2"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <TextView
+        android:id="@+id/player_4_card_3"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <TextView
+        android:id="@+id/player_4_card_4"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <TextView
+        android:id="@+id/player_4_card_5"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <TextView
+        android:id="@+id/dealer_username"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/dealer"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+
+    <TextView
+        android:id="@+id/dealer_card_1"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/dealer_card_2"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/dealer_card_3"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/dealer_card_4"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/dealer_card_5"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text="@string/empty_card"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/turn_text_view"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@color/colorLightGray"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <Button
+        android:id="@+id/button_hit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/hit"
+        android:onClick="handleHitButton"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/button_stay"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/stay"
+        android:onClick="handleStayButton"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/button_split"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/split"
+        android:onClick="handleSplitButton"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.985"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/button_refresh"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="@string/refresh"
+        android:onClick="updateGameStatus"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <TextView
+        android:id="@+id/msgResponse"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+</android.support.constraint.ConstraintLayout>
